@@ -41,6 +41,8 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
+
+
 public class MusicPlayer extends Application {
 
     private static MainController mainController;

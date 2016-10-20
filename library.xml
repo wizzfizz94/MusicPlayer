@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<library>
+    <musicLibrary>
+        <path>/home/zachary/Soulseek Downloads/complete</path>
+        <fileNum>187</fileNum>
+        <lastId>186</lastId>
+    </musicLibrary>
+    <songs>
+        <song>
+            <id>0</id>
+            <title>Drag</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>316</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.962</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/09 - Drag.mp3</location>
+        </song>
+        <song>
+            <id>1</id>
+            <title>Sea</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>110</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.963</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/07 - Sea.mp3</location>
+        </song>
+        <song>
+            <id>2</id>
+            <title>Lullaby</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>590</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.965</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/06 - Lullaby.mp3</location>
+        </song>
+        <song>
+            <id>3</id>
+            <title>Sunshine</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>179</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.966</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/11 - Sunshine.mp3</location>
+        </song>
+        <song>
+            <id>4</id>
+            <title>Words</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>350</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.967</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/01 - Words.mp3</location>
+        </song>
+        <song>
+            <id>5</id>
+            <title>Slide</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>231</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.969</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/04 - Slide.mp3</location>
+        </song>
+        <song>
+            <id>6</id>
+            <title>Down</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>449</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.970</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/08 - Down.mp3</location>
+        </song>
+        <song>
+            <id>7</id>
+            <title>Cut</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>348</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.972</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/03 - Cut.mp3</location>
+        </song>
+        <song>
+            <id>8</id>
+            <title>Rope</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>376</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.973</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/10 - Rope.mp3</location>
+        </song>
+        <song>
+            <id>9</id>
+            <title>Lazy</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>339</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.975</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/05 - Lazy.mp3</location>
+        </song>
+        <song>
+            <id>10</id>
+            <title>Fear</title>
+            <artist>Low</artist>
+            <album>I Could Live In Hope</album>
+            <length>136</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:21.976</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1994 - I Could Live In Hope/02 - Fear.mp3</location>
+        </song>
+        <song>
+            <id>11</id>
+            <title>Magnificent Seventies</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>537</length>
+            <trackNumber>01</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.053</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/01 Magnificent Seventies.mp3</location>
+        </song>
+        <song>
+            <id>12</id>
+            <title>Two Way Diamond II</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>268</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.066</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/07 Two Way Diamond II.mp3</location>
+        </song>
+        <song>
+            <id>13</id>
+            <title>Don't Wake Me</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>415</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.072</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/08 Don't Wake Me.mp3</location>
+        </song>
+        <song>
+            <id>14</id>
+            <title>Using The Hope Diamond as a Doorstop</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>165</length>
+            <trackNumber>02</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.076</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/02 Using The Hope Diamond As A Doors.mp3</location>
+        </song>
+        <song>
+            <id>15</id>
+            <title>Where Have All the Good Boys Gone</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>337</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.094</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/04 Where Have All The Good Boys Gone.mp3</location>
+        </song>
+        <song>
+            <id>16</id>
+            <title>White House</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>313</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.100</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/05 White House.mp3</location>
+        </song>
+        <song>
+            <id>17</id>
+            <title>Blue Chaise</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>398</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.104</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/03 Blue Chaise.mp3</location>
+        </song>
+        <song>
+            <id>18</id>
+            <title>Two Way Diamond I</title>
+            <artist>The American Analog Set</artist>
+            <album>From Our Living Room To Yours</album>
+            <length>248</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.111</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/From Our Living Room To Yours/06 Two Way Diamond I.mp3</location>
+        </song>
+        <song>
+            <id>19</id>
+            <title>Before You Accuse Me</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>208</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.122</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/02 - Before You Accuse Me.mp3</location>
+        </song>
+        <song>
+            <id>20</id>
+            <title>Who'll Stop the Rain</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>150</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.126</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/09 - Who'll Stop the Rain.mp3</location>
+        </song>
+        <song>
+            <id>21</id>
+            <title>Long as I Can See the Light</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>213</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.132</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/11 - Long as I Can See the Light.mp3</location>
+        </song>
+        <song>
+            <id>22</id>
+            <title>Ooby Dooby</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>128</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.138</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/04 - Ooby Dooby.mp3</location>
+        </song>
+        <song>
+            <id>23</id>
+            <title>My Baby Left Me</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>140</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.141</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/08 - My Baby Left Me.mp3</location>
+        </song>
+        <song>
+            <id>24</id>
+            <title>Ramble Tamble</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>433</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.147</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/01 - Ramble Tamble.mp3</location>
+        </song>
+        <song>
+            <id>25</id>
+            <title>Lookin' Out My Back Door</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>154</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.150</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/05 - Lookin' Out My Back Door.mp3</location>
+        </song>
+        <song>
+            <id>26</id>
+            <title>Run Through the Jungle</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>187</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.159</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/06 - Run Through the Jungle.mp3</location>
+        </song>
+        <song>
+            <id>27</id>
+            <title>Up Around the Bend</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>163</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.163</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/07 - Up Around the Bend.mp3</location>
+        </song>
+        <song>
+            <id>28</id>
+            <title>I Heard It Through the Grapevine</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>667</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.166</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/10 - I Heard It Through the Grapevine.mp3</location>
+        </song>
+        <song>
+            <id>29</id>
+            <title>Travelin' Band</title>
+            <artist>Creedence Clearwater Revival</artist>
+            <album>Cosmo's Factory</album>
+            <length>128</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.168</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/creedence clearwater revival - 1970 - cosmo's factory/03 - Travelin' Band.mp3</location>
+        </song>
+        <song>
+            <id>30</id>
+            <title>Oh Yeah</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>444</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.197</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/03 Oh Yeah.m4a</location>
+        </song>
+        <song>
+            <id>31</id>
+            <title>Peking O</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>698</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.200</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/06 Peking O.m4a</location>
+        </song>
+        <song>
+            <id>32</id>
+            <title>Mushroom</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>243</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.203</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/02 Mushroom.m4a</location>
+        </song>
+        <song>
+            <id>33</id>
+            <title>Bring Me Coffee Or Tea</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>406</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.205</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/07 Bring Me Coffee Or Tea.m4a</location>
+        </song>
+        <song>
+            <id>34</id>
+            <title>Aumgn</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>1053</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.208</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/05 Aumgn.m4a</location>
+        </song>
+        <song>
+            <id>35</id>
+            <title>Paperhouse</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>448</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.219</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/01 Paperhouse.m4a</location>
+        </song>
+        <song>
+            <id>36</id>
+            <title>Halleluhwah</title>
+            <artist>CAN</artist>
+            <album>Tago Mago</album>
+            <length>1108</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.226</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Tago Mago/04 Halleluhwah.m4a</location>
+        </song>
+        <song>
+            <id>37</id>
+            <title>Girl on a Swing</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>169</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.253</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/04 Girl on a Swing.mp3</location>
+        </song>
+        <song>
+            <id>38</id>
+            <title>All This Crazy Gift Of Time</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>237</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.260</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/10 All This Crazy Gift Of Time.mp3</location>
+        </song>
+        <song>
+            <id>39</id>
+            <title>Oleh Oleh Bandu Bandong</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>335</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.266</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/09 Oleh Oleh Bandu Bandong.mp3</location>
+        </song>
+        <song>
+            <id>40</id>
+            <title>Town Feeling</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>291</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.270</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/02 Town Feeling.mp3</location>
+        </song>
+        <song>
+            <id>41</id>
+            <title>Joy of a Toy Continued</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>174</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.277</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/01 Joy of a Toy Continued.mp3</location>
+        </song>
+        <song>
+            <id>42</id>
+            <title>Song for Insane Times</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>241</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.283</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/05 Song for Insane Times.mp3</location>
+        </song>
+        <song>
+            <id>43</id>
+            <title>The Clarietta Rag</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>200</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.286</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/03 The Clarietta Rag.mp3</location>
+        </song>
+        <song>
+            <id>44</id>
+            <title>Eleanor's Cake (Which Ate Her)</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>174</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.293</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/07 Eleanor's Cake (Which Ate Her).mp3</location>
+        </song>
+        <song>
+            <id>45</id>
+            <title>Lady Rachel</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>317</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.297</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/08 Lady Rachel.mp3</location>
+        </song>
+        <song>
+            <id>46</id>
+            <title>Stop This Train (Again Doing It)</title>
+            <artist>Kevin Ayers</artist>
+            <album>Joy of a Toy</album>
+            <length>366</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.302</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Joy of a Toy/06 Stop This Train (Again Doing It).mp3</location>
+        </song>
+        <song>
+            <id>47</id>
+            <title>Amsterdam</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>437</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.305</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 03 Amsterdam.mp3</location>
+        </song>
+        <song>
+            <id>48</id>
+            <title>Les, Moh y Gribi</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>654</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.308</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 06 Les, Moh y Gribi.mp3</location>
+        </song>
+        <song>
+            <id>49</id>
+            <title>Tzar Morei</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>584</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.315</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 02 Tzar Morei.mp3</location>
+        </song>
+        <song>
+            <id>50</id>
+            <title>Swarm</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>580</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.318</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 04 Swarm.mp3</location>
+        </song>
+        <song>
+            <id>51</id>
+            <title>Valorians</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>302</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.324</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 01 Valorians.mp3</location>
+        </song>
+        <song>
+            <id>52</id>
+            <title>Rulons</title>
+            <artist>Kairon; IRSE!</artist>
+            <album>Ujubasajuba</album>
+            <length>506</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.331</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Ujubasajuba.2014/Kairon; IRSE! - Ujubasajuba - 05 Rulons.mp3</location>
+        </song>
+        <song>
+            <id>53</id>
+            <title>Truckers Atlas</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>657</length>
+            <trackNumber>12</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.333</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/12 Truckers Atlas.mp3</location>
+        </song>
+        <song>
+            <id>54</id>
+            <title>Trailer Trash</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>349</length>
+            <trackNumber>08</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.335</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/08 Trailer Trash.mp3</location>
+        </song>
+        <song>
+            <id>55</id>
+            <title>Doin' the Cockroach</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>258</length>
+            <trackNumber>06</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.340</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/06 Doin' the Cockroach.mp3</location>
+        </song>
+        <song>
+            <id>56</id>
+            <title>Lounge (Closing Time)</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>423</length>
+            <trackNumber>04</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.347</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/04 Lounge (Closing Time).mp3</location>
+        </song>
+        <song>
+            <id>57</id>
+            <title>Heart Cooks Brain</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>243</length>
+            <trackNumber>02</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.349</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/02 Heart Cooks Brain.mp3</location>
+        </song>
+        <song>
+            <id>58</id>
+            <title>Convenient Parking</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>248</length>
+            <trackNumber>03</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.352</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/03 Convenient Parking.mp3</location>
+        </song>
+        <song>
+            <id>59</id>
+            <title>Teeth Like God's Shoeshine</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>413</length>
+            <trackNumber>01</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.354</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/01 Teeth Like God's Shoeshine.mp3</location>
+        </song>
+        <song>
+            <id>60</id>
+            <title>Long Distance Drunk</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>222</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.357</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/10 Long Distance Drunk.mp3</location>
+        </song>
+        <song>
+            <id>61</id>
+            <title>Styrofoam Boots/It's All Nice on Ice, Alright</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>413</length>
+            <trackNumber>15</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.361</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/15 Styrofoam Boots_It's All Nice on.mp3</location>
+        </song>
+        <song>
+            <id>62</id>
+            <title>Jesus Christ Was an Only Child</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>156</length>
+            <trackNumber>05</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.367</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/05 Jesus Christ Was an Only Child.mp3</location>
+        </song>
+        <song>
+            <id>63</id>
+            <title>Cowboy Dan</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>374</length>
+            <trackNumber>07</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.370</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/07 Cowboy Dan.mp3</location>
+        </song>
+        <song>
+            <id>64</id>
+            <title>Bankrupt on Selling</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>173</length>
+            <trackNumber>14</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.372</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/14 Bankrupt on Selling.mp3</location>
+        </song>
+        <song>
+            <id>65</id>
+            <title>Out of Gas</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>151</length>
+            <trackNumber>09</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.375</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/09 Out of Gas.mp3</location>
+        </song>
+        <song>
+            <id>66</id>
+            <title>Shit Luck</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>142</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.376</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/11 Shit Luck.mp3</location>
+        </song>
+        <song>
+            <id>67</id>
+            <title>Polar Opposites</title>
+            <artist>Modest Mouse</artist>
+            <album>The Lonesome Crowded West</album>
+            <length>210</length>
+            <trackNumber>13</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.379</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Lonesome Crowded West/13 Polar Opposites.mp3</location>
+        </song>
+        <song>
+            <id>68</id>
+            <title>Things'll Never Be The Same</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>364</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.382</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/06 Things'll Never Be The Same.mp3</location>
+        </song>
+        <song>
+            <id>69</id>
+            <title>Ode To Street Hassle</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>240</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.389</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/03 Ode To Street Hassle.mp3</location>
+        </song>
+        <song>
+            <id>70</id>
+            <title>Walkin' With Jesus</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>310</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.394</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/02 Walkin' With Jesus.mp3</location>
+        </song>
+        <song>
+            <id>71</id>
+            <title>Feel So Good</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>332</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.400</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/05 Feel So Good.mp3</location>
+        </song>
+        <song>
+            <id>72</id>
+            <title>Come Down Easy</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>409</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.404</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/07 Come Down Easy.mp3</location>
+        </song>
+        <song>
+            <id>73</id>
+            <title>Soul 1 [Bonus Track]</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>341</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.409</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/09 Soul 1 [Bonus Track].mp3</location>
+        </song>
+        <song>
+            <id>74</id>
+            <title>That's Just Fine [Bonus Track]</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>409</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.415</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/10 That's Just Fine [Bonus Track].mp3</location>
+        </song>
+        <song>
+            <id>75</id>
+            <title>Transparent Radiation (Flashback) / Ecstasy Symphony</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>591</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.419</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/04 Transparent Radiation (Flashback) _ Ecstasy Symphony.mp3</location>
+        </song>
+        <song>
+            <id>76</id>
+            <title>Take Me To The Other Side</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>281</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.434</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/01 Take Me To The Other Side.mp3</location>
+        </song>
+        <song>
+            <id>77</id>
+            <title>Call The Doctor</title>
+            <artist>Spacemen 3</artist>
+            <album>The Perfect Prescription</album>
+            <length>230</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.438</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Perfect Prescription/08 Call The Doctor.mp3</location>
+        </song>
+        <song>
+            <id>78</id>
+            <title>Weather Report</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>173</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.442</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/01 Weather Report.mp3</location>
+        </song>
+        <song>
+            <id>79</id>
+            <title>IV</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>46</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.445</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/09 IV.mp3</location>
+        </song>
+        <song>
+            <id>80</id>
+            <title>Will the Real Danny Radnor Please Stand?</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>152</length>
+            <trackNumber>12</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.452</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/12 Will the Real Danny Radnor Please Stand_.mp3</location>
+        </song>
+        <song>
+            <id>81</id>
+            <title>A Schoolboy's Charm</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>262</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.455</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/04 A Schoolboy's Charm.mp3</location>
+        </song>
+        <song>
+            <id>82</id>
+            <title>I Must Soon Quit the Scene</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>339</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.458</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/11 I Must Soon Quit the Scene.mp3</location>
+        </song>
+        <song>
+            <id>83</id>
+            <title>New Drifters</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>120</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.465</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/06 New Drifters.mp3</location>
+        </song>
+        <song>
+            <id>84</id>
+            <title>A Good Friend Is Always Around</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>152</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.472</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/02 A Good Friend Is Always Around.mp3</location>
+        </song>
+        <song>
+            <id>85</id>
+            <title>The Wait</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>189</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.475</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/05 The Wait.mp3</location>
+        </song>
+        <song>
+            <id>86</id>
+            <title>The Golden Band</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>180</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.478</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/10 The Golden Band.mp3</location>
+        </song>
+        <song>
+            <id>87</id>
+            <title>III</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>221</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.483</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/08 III.mp3</location>
+        </song>
+        <song>
+            <id>88</id>
+            <title>It's All About Us</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>389</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.489</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/03 It's All About Us.mp3</location>
+        </song>
+        <song>
+            <id>89</id>
+            <title>II</title>
+            <artist>American Analog Set, The</artist>
+            <album>The Golden Band</album>
+            <length>193</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.492</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/The Golden Band/07 II.mp3</location>
+        </song>
+        <song>
+            <id>90</id>
+            <title>Uno</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>167</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.497</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/10 Uno.mp3</location>
+        </song>
+        <song>
+            <id>91</id>
+            <title>Thuggin'</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>226</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.501</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/08 Thuggin'.mp3</location>
+        </song>
+        <song>
+            <id>92</id>
+            <title>Deeper</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>199</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.504</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/03 Deeper.mp3</location>
+        </song>
+        <song>
+            <id>93</id>
+            <title>Shitsville</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>211</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.507</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/07 Shitsville.mp3</location>
+        </song>
+        <song>
+            <id>94</id>
+            <title>Watts feat Big Time Watts</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>115</length>
+            <trackNumber>16</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.509</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/16 Watts feat Big Time Watts.mp3</location>
+        </song>
+        <song>
+            <id>95</id>
+            <title>Pinata feat Domo Genesis, G-Wiz, Casey Veggies, Sulaiman, Meechy Darko And Mac Miller</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>513</length>
+            <trackNumber>17</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.516</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/17 Pinata feat Domo Genesis, G-Wiz, Casey Veggies, Sulaiman, Meechy Darko And Mac Miller.mp3</location>
+        </song>
+        <song>
+            <id>96</id>
+            <title>High feat Danny Brown</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>177</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.521</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/04 High feat Danny Brown.mp3</location>
+        </song>
+        <song>
+            <id>97</id>
+            <title>Scarface</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>126</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.524</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/02 Scarface.mp3</location>
+        </song>
+        <song>
+            <id>98</id>
+            <title>Lakers feat Ab-Soul And Polyester The Saint</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>270</length>
+            <trackNumber>13</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.527</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/13 Lakers feat Ab-Soul And Polyester The Saint.mp3</location>
+        </song>
+        <song>
+            <id>99</id>
+            <title>Robes feat Domo Genesis And Earl Sweatshirt</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>304</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.645</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/11 Robes feat Domo Genesis And Earl Sweatshirt.mp3</location>
+        </song>
+        <song>
+            <id>100</id>
+            <title>Shame feat BJ The Chicago Kid</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>183</length>
+            <trackNumber>15</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.651</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/15 Shame feat BJ The Chicago Kid.mp3</location>
+        </song>
+        <song>
+            <id>101</id>
+            <title>Real</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>214</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.659</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/09 Real.mp3</location>
+        </song>
+        <song>
+            <id>102</id>
+            <title>Bomb feat Raekwon</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>223</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.664</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/06 Bomb feat Raekwon.mp3</location>
+        </song>
+        <song>
+            <id>103</id>
+            <title>Supplier</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>48</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.667</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/01 Supplier.mp3</location>
+        </song>
+        <song>
+            <id>104</id>
+            <title>Knicks</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>220</length>
+            <trackNumber>14</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.669</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/14 Knicks.mp3</location>
+        </song>
+        <song>
+            <id>105</id>
+            <title>Broken feat Scarface</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>248</length>
+            <trackNumber>12</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.675</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/12 Broken feat Scarface.mp3</location>
+        </song>
+        <song>
+            <id>106</id>
+            <title>Harold's</title>
+            <artist>Freddie Gibbs And Madlib</artist>
+            <album>Pinata</album>
+            <length>169</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.688</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Pinata/05 Harold's.mp3</location>
+        </song>
+        <song>
+            <id>107</id>
+            <title>Prelude</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>78</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.697</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/01 Prelude.m4a</location>
+        </song>
+        <song>
+            <id>108</id>
+            <title>Anthem (Begin)</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>161</length>
+            <trackNumber>14</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.703</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/14 Anthem (Begin).m4a</location>
+        </song>
+        <song>
+            <id>109</id>
+            <title>The Island</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>198</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.712</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/06 The Island.m4a</location>
+        </song>
+        <song>
+            <id>110</id>
+            <title>Karmic Dream Sequence #1</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>356</length>
+            <trackNumber>12</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.719</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/12 Karmic Dream Sequence #1.m4a</location>
+        </song>
+        <song>
+            <id>111</id>
+            <title>It's You</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>201</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.735</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/08 It's You.m4a</location>
+        </song>
+        <song>
+            <id>112</id>
+            <title>Sing To Me</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>136</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.742</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/07 Sing To Me.m4a</location>
+        </song>
+        <song>
+            <id>113</id>
+            <title>The Know It All</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>161</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.749</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/11 The Know It All.m4a</location>
+        </song>
+        <song>
+            <id>114</id>
+            <title>5 A.M.</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>159</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.757</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/04 5 A.M..m4a</location>
+        </song>
+        <song>
+            <id>115</id>
+            <title>Some Sunny Day</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>201</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.763</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/09 Some Sunny Day.m4a</location>
+        </song>
+        <song>
+            <id>116</id>
+            <title>There Is Nothing More To Say</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>143</length>
+            <trackNumber>13</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.776</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/13 There Is Nothing More To Say.m4a</location>
+        </song>
+        <song>
+            <id>117</id>
+            <title>I Just Want To Be Your Friend</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>156</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.782</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/03 I Just Want To Be Your Friend.m4a</location>
+        </song>
+        <song>
+            <id>118</id>
+            <title>I'm With You</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>155</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.788</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/05 I'm With You.m4a</location>
+        </song>
+        <song>
+            <id>119</id>
+            <title>To Claudia On Thursday</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>205</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.794</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/02 To Claudia On Thursday.m4a</location>
+        </song>
+        <song>
+            <id>120</id>
+            <title>It Won't Always Be The Same</title>
+            <artist>The Millennium</artist>
+            <album>Begin</album>
+            <length>177</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.802</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Begin/10 It Won't Always Be The Same.m4a</location>
+        </song>
+        <song>
+            <id>121</id>
+            <title>I'm A Mover</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>176</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.804</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/06 - I'm A Mover.mp3</location>
+        </song>
+        <song>
+            <id>122</id>
+            <title>Walk In My Shadow</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>210</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.805</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/03 - Walk In My Shadow.mp3</location>
+        </song>
+        <song>
+            <id>123</id>
+            <title>Moonshine</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>305</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.806</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/08 - Moonshine.mp3</location>
+        </song>
+        <song>
+            <id>124</id>
+            <title>Wild Indian Woman</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>220</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.810</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/04 - Wild Indian Woman.mp3</location>
+        </song>
+        <song>
+            <id>125</id>
+            <title>Over The Green Hills (Part 2)</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>128</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.812</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/10 - Over The Green Hills (Part 2).mp3</location>
+        </song>
+        <song>
+            <id>126</id>
+            <title>Goin' Down Slow</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>502</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.817</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/05 - Goin' Down Slow.mp3</location>
+        </song>
+        <song>
+            <id>127</id>
+            <title>The Hunter</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>254</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.818</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/07 - The Hunter.mp3</location>
+        </song>
+        <song>
+            <id>128</id>
+            <title>Over The Green Hills (Part 1)</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>50</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.819</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/01 - Over The Green Hills (Part 1).mp3</location>
+        </song>
+        <song>
+            <id>129</id>
+            <title>Sweet Tooth</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>294</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.820</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/09 - Sweet Tooth.mp3</location>
+        </song>
+        <song>
+            <id>130</id>
+            <title>Worry</title>
+            <artist>Free</artist>
+            <album>Tons Of Sobs</album>
+            <length>208</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.821</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/1968 - Tons Of Sobs/02 - Worry.mp3</location>
+        </song>
+        <song>
+            <id>131</id>
+            <title>Oye Como Va</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>257</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.822</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/03 - Oye Como Va.mp3</location>
+        </song>
+        <song>
+            <id>132</id>
+            <title>Samba Pa Ti</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>288</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.824</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/07 - Samba Pa Ti.mp3</location>
+        </song>
+        <song>
+            <id>133</id>
+            <title>Hope You're Feeling Better</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>257</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.826</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/08 - Hope You're Feeling Better.mp3</location>
+        </song>
+        <song>
+            <id>134</id>
+            <title>Mother's Daughter</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>268</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.828</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/06 - Mother's Daughter.mp3</location>
+        </song>
+        <song>
+            <id>135</id>
+            <title>Black Magic Woman,Gypsy Queen</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>317</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.831</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/02 - Black Magic Woman,Gypsy Queen.mp3</location>
+        </song>
+        <song>
+            <id>136</id>
+            <title>Incident At Neshabur</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>299</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.833</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/04 - Incident At Neshabur.mp3</location>
+        </song>
+        <song>
+            <id>137</id>
+            <title>El Nicoya</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>89</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.835</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/09 - El Nicoya.mp3</location>
+        </song>
+        <song>
+            <id>138</id>
+            <title>Se A cabo</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>172</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.837</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/05 - Se A cabo.mp3</location>
+        </song>
+        <song>
+            <id>139</id>
+            <title>Singing Winds, Crying Beasts</title>
+            <artist>Santana</artist>
+            <album>Abraxas</album>
+            <length>291</length>
+            <trackNumber>0</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.839</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/012 - Santana - Abraxas (1970)/01 - Singing Winds, Crying Beasts.mp3</location>
+        </song>
+        <song>
+            <id>140</id>
+            <title>Demons</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>311</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.850</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/04 Demons.m4a</location>
+        </song>
+        <song>
+            <id>141</id>
+            <title>Down A Different River</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>337</length>
+            <trackNumber>12</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:22.869</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/12 Down A Different River.m4a</location>
+        </song>
+        <song>
+            <id>142</id>
+            <title>She's Got Spies</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>283</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.046</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/06 She's Got Spies.m4a</location>
+        </song>
+        <song>
+            <id>143</id>
+            <title>Download</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>199</length>
+            <trackNumber>13</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.048</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/13 Download.m4a</location>
+        </song>
+        <song>
+            <id>144</id>
+            <title>Bass Tuned To DEAD</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>200</length>
+            <trackNumber>11</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.052</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/11 Bass Tuned To DEAD.m4a</location>
+        </song>
+        <song>
+            <id>145</id>
+            <title>Torra Fy Ngwallt Yn Hir</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>114</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.054</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/10 Torra Fy Ngwallt Yn Hir.m4a</location>
+        </song>
+        <song>
+            <id>146</id>
+            <title>Short Painkiller</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>38</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.055</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/05 Short Painkiller.m4a</location>
+        </song>
+        <song>
+            <id>147</id>
+            <title>The International Language Of Screaming</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>134</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.057</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/03 The International Language Of Screaming.m4a</location>
+        </song>
+        <song>
+            <id>148</id>
+            <title>Mountain People</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>374</length>
+            <trackNumber>14</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.059</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/14 Mountain People.m4a</location>
+        </song>
+        <song>
+            <id>149</id>
+            <title>The Placid Casual</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>169</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.062</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/02 The Placid Casual.m4a</location>
+        </song>
+        <song>
+            <id>150</id>
+            <title>Play It Cool</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>195</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.064</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/07 Play It Cool.m4a</location>
+        </song>
+        <song>
+            <id>151</id>
+            <title>Furryvision</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>85</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.068</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/01 Furryvision.m4a</location>
+        </song>
+        <song>
+            <id>152</id>
+            <title>Chupacabras</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>86</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.069</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/09 Chupacabras.m4a</location>
+        </song>
+        <song>
+            <id>153</id>
+            <title>Hermann Loves Pauline</title>
+            <artist>Super Furry Animals</artist>
+            <album>Radiator</album>
+            <length>283</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.074</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Radiator/08 Hermann Loves Pauline.m4a</location>
+        </song>
+        <song>
+            <id>154</id>
+            <title>A Quick One Before the Eternal Worm Devours Connecticut</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>472</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.076</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-01 A Quick One Before the Eternal Worm Devours Connecticut.mp3</location>
+        </song>
+        <song>
+            <id>155</id>
+            <title>Bloodhail</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>340</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.078</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-02 Bloodhail.mp3</location>
+        </song>
+        <song>
+            <id>156</id>
+            <title>Telephony</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>278</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.081</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-05 Telephony.mp3</location>
+        </song>
+        <song>
+            <id>157</id>
+            <title>Waiting For Black Metal Records To Come In The Mail</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>377</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.088</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-01 Waiting For Black Metal Records To Come In The Mail.mp3</location>
+        </song>
+        <song>
+            <id>158</id>
+            <title>Deep, Deep</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>325</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.091</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-04 Deep, Deep.mp3</location>
+        </song>
+        <song>
+            <id>159</id>
+            <title>Holy Fucking Shit: 40,000</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>388</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.161</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-02 Holy Fucking Shit  40,000.mp3</location>
+        </song>
+        <song>
+            <id>160</id>
+            <title>Earthmover</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>688</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.164</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-06 Earthmover.mp3</location>
+        </song>
+        <song>
+            <id>161</id>
+            <title>The Big Gloom</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>486</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.173</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-03 The Big Gloom.mp3</location>
+        </song>
+        <song>
+            <id>162</id>
+            <title>Who Would Leave Their Son Out in the Sun</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>319</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.176</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-06 Who Would Leave Their Son Out in the Sun.mp3</location>
+        </song>
+        <song>
+            <id>163</id>
+            <title>The Future</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>230</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.182</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-03 The Future.mp3</location>
+        </song>
+        <song>
+            <id>164</id>
+            <title>Hunter</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>585</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.184</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-04 Hunter.mp3</location>
+        </song>
+        <song>
+            <id>165</id>
+            <title>There Is No Food</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>240</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.186</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/1-07 There Is No Food.mp3</location>
+        </song>
+        <song>
+            <id>166</id>
+            <title>I Don't Love</title>
+            <artist>Have a Nice Life</artist>
+            <album>Deathconsciousness</album>
+            <length>373</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>2</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.188</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Deathconsciousness/2-05 I Don't Love.mp3</location>
+        </song>
+        <song>
+            <id>167</id>
+            <title>Memory Loss</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>256</length>
+            <trackNumber>7</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.192</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/07 Memory Loss.mp3</location>
+        </song>
+        <song>
+            <id>168</id>
+            <title>This Time Around</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>225</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.201</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/03 This Time Around.mp3</location>
+        </song>
+        <song>
+            <id>169</id>
+            <title>Never Follow Suit</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>249</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.203</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/04 Never Follow Suit.mp3</location>
+        </song>
+        <song>
+            <id>170</id>
+            <title>You Stopped Making Sense</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>234</length>
+            <trackNumber>10</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.205</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/10 You Stopped Making Sense.mp3</location>
+        </song>
+        <song>
+            <id>171</id>
+            <title>David</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>211</length>
+            <trackNumber>8</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.207</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/08 David.mp3</location>
+        </song>
+        <song>
+            <id>172</id>
+            <title>The Video Dept.</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>205</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.214</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/06 The Video Dept..mp3</location>
+        </song>
+        <song>
+            <id>173</id>
+            <title>Heaven's on Fire</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>212</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.219</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/02 Heaven's on Fire.mp3</location>
+        </song>
+        <song>
+            <id>174</id>
+            <title>A Token of Gratitude</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>247</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.225</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/05 A Token of Gratitude.mp3</location>
+        </song>
+        <song>
+            <id>175</id>
+            <title>Domestic Scene</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>145</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.227</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/01 Domestic Scene.mp3</location>
+        </song>
+        <song>
+            <id>176</id>
+            <title>Four Months in the Shade</title>
+            <artist>The Radio Dept.</artist>
+            <album>Clinging to a Scheme</album>
+            <length>109</length>
+            <trackNumber>9</trackNumber>
+            <discNumber>1</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.240</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Clinging to a Scheme/09 Four Months in the Shade.mp3</location>
+        </song>
+        <song>
+            <id>177</id>
+            <title>Hyperbolicsyllabicsesquedalymistic</title>
+            <artist>Isaac Hayes</artist>
+            <album>Hot Buttered Soul</album>
+            <length>578</length>
+            <trackNumber>02</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.242</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/02 Hot Buttered Soul (1969)/02 - Hyperbolicsyllabicsesquedalymistic.mp3</location>
+        </song>
+        <song>
+            <id>178</id>
+            <title>Walk On By</title>
+            <artist>Isaac Hayes</artist>
+            <album>Hot Buttered Soul</album>
+            <length>724</length>
+            <trackNumber>01</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.244</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/02 Hot Buttered Soul (1969)/01 - Walk On By.mp3</location>
+        </song>
+        <song>
+            <id>179</id>
+            <title>By The Time I Get To Phoenix</title>
+            <artist>Isaac Hayes</artist>
+            <album>Hot Buttered Soul</album>
+            <length>1123</length>
+            <trackNumber>04</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.250</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/02 Hot Buttered Soul (1969)/04 - By The Time I Get To Phoenix.mp3</location>
+        </song>
+        <song>
+            <id>180</id>
+            <title>One Woman</title>
+            <artist>Isaac Hayes</artist>
+            <album>Hot Buttered Soul</album>
+            <length>310</length>
+            <trackNumber>03</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.252</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/02 Hot Buttered Soul (1969)/03 - One Woman.mp3</location>
+        </song>
+        <song>
+            <id>181</id>
+            <title>The Governor</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>408</length>
+            <trackNumber>2</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.255</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/02 The Governor.mp3</location>
+        </song>
+        <song>
+            <id>182</id>
+            <title>Killing Time</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>673</length>
+            <trackNumber>1</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.257</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/01 Killing Time.mp3</location>
+        </song>
+        <song>
+            <id>183</id>
+            <title>No</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>393</length>
+            <trackNumber>4</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.260</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/04 No.mp3</location>
+        </song>
+        <song>
+            <id>184</id>
+            <title>History Lesson</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>223</length>
+            <trackNumber>6</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.264</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/06 History Lesson.mp3</location>
+        </song>
+        <song>
+            <id>185</id>
+            <title>Three Sides of Nazareth</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>593</length>
+            <trackNumber>5</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.269</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/05 Three Sides of Nazareth.mp3</location>
+        </song>
+        <song>
+            <id>186</id>
+            <title>Leaves</title>
+            <artist>Nicolas Jaar</artist>
+            <album>Sirens</album>
+            <length>209</length>
+            <trackNumber>3</trackNumber>
+            <discNumber>0</discNumber>
+            <playCount>0</playCount>
+            <playDate>2016-10-20T17:45:23.272</playDate>
+            <location>/home/zachary/Soulseek Downloads/complete/Sirens/03 Leaves.mp3</location>
+        </song>
+    </songs>
+    <playlists/>
+    <nowPlayingList/>
+</library>
