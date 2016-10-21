@@ -6,7 +6,7 @@ package app.musicplayer.lcs;
 public class Classifier {
 
     private Action action;
-    private AttributeSet attributeSet;
+    private ConditionSet conditionSet;
     private float fitness;
 
     public Classifier(Action action){
