@@ -868,6 +868,7 @@ public class MainController implements Initializable, IntellitypeListener {
     private void skip() {
 
     	sideBar.requestFocus();
+		MusicPlayer.feedbackNegativeToLCS();
         MusicPlayer.skip();
     }
     

@@ -8,11 +8,7 @@ import java.io.PrintStream;
 import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Timer;
-import java.util.TimerTask;
+import java.util.*;
 import java.util.logging.LogManager;
 
 import javax.xml.stream.XMLInputFactory;
@@ -405,6 +401,7 @@ public class MusicPlayer extends Application {
     private static class SongSkipper implements Runnable {
         @Override
         public void run() {
+            feedbackPositiveToLCS();
             skip();
         }
     }
@@ -470,8 +467,15 @@ public class MusicPlayer extends Application {
      * Skips song.
      */
     public static void skip() {
-        //Todo YIWEN
-        if (nowPlayingIndex < nowPlayingList.size() - 1) {
+        if (isSmartShuffleActive) {
+            boolean isPlaying = isPlaying();
+            mainController.updatePlayPauseIcon(isPlaying);
+            setNowPlaying(getSmartSong());
+            if (isPlaying) {
+                play();
+            }
+        }
+        else if (nowPlayingIndex < nowPlayingList.size() - 1) {
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
             setNowPlaying(nowPlayingList.get(nowPlayingIndex + 1));
@@ -635,6 +639,21 @@ public class MusicPlayer extends Application {
         return nowPlaying;
     }
 
+    public static Song getSmartSong() {
+        Song song = getSongFromLCS();
+
+        if(song == null) {
+            song = getSongRandom();
+        }
+
+        return song;
+    }
+
+    public static Song getSongRandom()  {
+        Random rand = new Random();
+        return nowPlayingList.get(rand.nextInt(nowPlayingList.size()-nowPlayingIndex+1)+nowPlayingIndex);
+    }
+
     public static String getTimePassed() {
         int secondsPassed = timerCounter / 4;
         int minutes = secondsPassed / 60;
@@ -674,4 +693,17 @@ public class MusicPlayer extends Application {
     public static void setLastIdAssigned(int i) {
         lastIdAssigned = i;
     }
+
+    public static void feedbackPositiveToLCS()
+    {
+        // TODO positive feedback to LCS
+    }
+
+    public static void feedbackNegativeToLCS()
+    {
+        // TODO bad feedback to LCS
+    }
+
+    // TODO Get a song basing on LCS
+    public static Song getSongFromLCS()  { return null;}
 }
