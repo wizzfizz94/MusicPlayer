@@ -82,6 +82,8 @@ public class MainController implements Initializable, IntellitypeListener {
     @FXML private Pane shuffleButton;
     @FXML private HBox controlBox;
 
+	@FXML private Pane smartShuffleButton;
+
 	@FXML private TextField searchBox;
 
     @Override
@@ -110,6 +112,13 @@ public class MainController implements Initializable, IntellitypeListener {
     		MusicPlayer.toggleShuffle();
     		shuffleButton.pseudoClassStateChanged(active, MusicPlayer.isShuffleActive());
     	});
+
+		// Smart Shuffle Added by Evan
+		smartShuffleButton.setOnMouseClicked(x -> {
+			sideBar.requestFocus();
+			MusicPlayer.toggleSmartShuffle();
+			smartShuffleButton.pseudoClassStateChanged(active, MusicPlayer.isSmartShuffleActive());
+		});
     	
     	timeSlider.setFocusTraversable(false);
     	

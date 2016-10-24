@@ -41,8 +41,6 @@ import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
-// TEST TO publish coding
-
 public class MusicPlayer extends Application {
 
     private static MainController mainController;
@@ -57,6 +55,9 @@ public class MusicPlayer extends Application {
     private static boolean isShuffleActive = false;
     private static boolean isMuted = false;
     private static Object draggedItem;
+
+    // Smart Shuffle - Added by Evan
+    private static boolean isSmartShuffleActive = false;
 
     private static Stage stage;
 
@@ -469,6 +470,7 @@ public class MusicPlayer extends Application {
      * Skips song.
      */
     public static void skip() {
+        //Todo YIWEN
         if (nowPlayingIndex < nowPlayingList.size() - 1) {
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
@@ -549,6 +551,12 @@ public class MusicPlayer extends Application {
 
     public static boolean isShuffleActive() {
         return isShuffleActive;
+    }
+
+    public static void toggleSmartShuffle() { isSmartShuffleActive = !isSmartShuffleActive; }
+
+    public static boolean isSmartShuffleActive() {
+        return isSmartShuffleActive;
     }
 
     public static Stage getStage() {
