@@ -51,6 +51,12 @@ public final class Library {
     private static final String PLAYDATE = "playDate";
     private static final String LOCATION = "location";
 
+    private static final String GENRE = "genre";
+    private static final String LENGTHINBUCKETS = "lengthInBuckets";
+    private static final String YEAR = "year";
+    private static final String YEARINBUCKETS = "yearInBuckets";
+    private static final String LANGUAGE = "language";
+
     private static ArrayList<Song> songs;
     private static ArrayList<Artist> artists;
     private static ArrayList<Album> albums;
@@ -159,6 +165,12 @@ public final class Library {
                     Element playDate = doc.createElement("playDate");
                     Element location = doc.createElement("location");
 
+                    Element genre = doc.createElement("genre");
+                    Element lengthInBuckets = doc.createElement("lengthInBuckets");
+                    Element year = doc.createElement("year");
+                    Element yearInBuckets = doc.createElement("yearInBuckets");
+                    Element language = doc.createElement("language");
+
                     id.setTextContent(Integer.toString(i++));
                     title.setTextContent(tag.getFirst(FieldKey.TITLE));
                     String artistTitle = tag.getFirst(FieldKey.ALBUM_ARTIST);
@@ -182,6 +194,14 @@ public final class Library {
                     playDate.setTextContent(LocalDateTime.now().toString());
                     location.setTextContent(Paths.get(file.getAbsolutePath()).toString());
 
+                    genre.setTextContent(tag.getFirst(FieldKey.GENRE));
+                    year.setTextContent(tag.getFirst(FieldKey.YEAR));
+                    language.setTextContent(tag.getFirst(FieldKey.LANGUAGE));
+
+                    String yearStr = year.getTextContent();
+                    yearInBuckets.setTextContent(yearStr.length() == 4 ? yearStr.substring(0,3)+"0s":yearStr);
+                    lengthInBuckets.setTextContent(Integer.toString(header.getTrackLength()/60) + "+");
+
                     song.appendChild(id);
                     song.appendChild(title);
                     song.appendChild(artist);
@@ -192,6 +212,12 @@ public final class Library {
                     song.appendChild(playCount);
                     song.appendChild(playDate);
                     song.appendChild(location);
+
+                    song.appendChild(genre);
+                    song.appendChild(year);
+                    song.appendChild(language);
+                    song.appendChild(lengthInBuckets);
+                    song.appendChild(yearInBuckets);
 
                     task.updateProgress(i, Library.maxProgress);
 
@@ -278,6 +304,12 @@ public final class Library {
             LocalDateTime playDate = null;
             String location = null;
 
+            String genre = null;
+            String language = null;
+            String lengthInBuckets = null;
+            String yearInBuckets = null;
+            String year = null;
+
             while(reader.hasNext()) {
                 reader.next();
 
@@ -319,10 +351,26 @@ public final class Library {
                         case LOCATION:
                             location = value;
                             break;
+                        case LENGTHINBUCKETS:
+                            lengthInBuckets = value;
+                            break;
+                        case GENRE:
+                            genre = value;
+                            break;
+                        case LANGUAGE :
+                            language  = value;
+                            break;
+                        case YEARINBUCKETS :
+                            yearInBuckets  = value;
+                            break;
+                        case YEAR :
+                            year  = value;
+                            break;
+
                     } // End switch
                 } else if (reader.isEndElement() && reader.getName().getLocalPart().equals("song")) {
 
-                    songs.add(new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location));
+                    songs.add(new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location,genre,lengthInBuckets,year,yearInBuckets,language));
                     id = -1;
                     title = null;
                     artist = null;
@@ -334,6 +382,11 @@ public final class Library {
                     playDate = null;
                     location = null;
 
+                    genre = null;
+                    language = null;
+                    lengthInBuckets = null;
+                    yearInBuckets = null;
+                    year = null;
                 } else if (reader.isEndElement() && reader.getName().getLocalPart().equals("songs")) {
 
                     reader.close();

@@ -47,6 +47,12 @@ public final class Song implements Comparable<Song> {
     private SimpleBooleanProperty playing;
     private SimpleBooleanProperty selected;
 
+    private SimpleStringProperty genre;
+    private SimpleStringProperty lengthInBuckets;
+    private SimpleStringProperty year;
+    private SimpleStringProperty yearInBuckets ;
+    private SimpleStringProperty language;
+
     /**
      * Constructor for the song class.
      *
@@ -60,9 +66,15 @@ public final class Song implements Comparable<Song> {
      * @param playCount
      * @param playDate
      * @param location
+     * @param genre
+     * @param lengthInBuckets
+     * @param year
+     * @param yearInBuckets
+     * @param language
      */
     public Song(int id, String title, String artist, String album, Duration length,
-                int trackNumber, int discNumber, int playCount, LocalDateTime playDate, String location) {
+                int trackNumber, int discNumber, int playCount, LocalDateTime playDate, String location,
+                String genre, String lengthInBuckets,String year, String yearInBuckets, String language) {
 
         if (title == null) {
             Path path = Paths.get(location);
@@ -92,6 +104,12 @@ public final class Song implements Comparable<Song> {
         this.location = location;
         this.playing = new SimpleBooleanProperty(false);
         this.selected = new SimpleBooleanProperty(false);
+
+        this.genre = new SimpleStringProperty(genre);
+        this.lengthInBuckets = new SimpleStringProperty(lengthInBuckets);
+        this.year = new SimpleStringProperty(year);
+        this.yearInBuckets = new SimpleStringProperty(yearInBuckets);
+        this.language = new SimpleStringProperty(language);
     }
 
     public int getId() {
@@ -185,6 +203,12 @@ public final class Song implements Comparable<Song> {
     public void setSelected(boolean selected) {
         this.selected.set(selected);
     }
+
+    public StringProperty getGenre() {return this.genre;}
+    public StringProperty getLengthInBuckets() {return this.lengthInBuckets;}
+    public StringProperty getYear() {return this.year;}
+    public StringProperty getYearInBuckets() {return this.yearInBuckets;}
+    public StringProperty getLanguage() {return this.language;}
 
     public void played() {
         this.playCount.set(this.playCount.get() + 1);

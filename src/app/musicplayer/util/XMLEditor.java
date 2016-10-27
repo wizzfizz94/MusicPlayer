@@ -316,9 +316,16 @@ public class XMLEditor {
 	            int playCount = 0;
 	            LocalDateTime playDate = LocalDateTime.now();
 	            String location = Paths.get(songFile.getAbsolutePath()).toString();
-	            
+
+				String genre = tag.getFirst(FieldKey.GENRE);
+				String year = tag.getFirst(FieldKey.YEAR);
+				String language= tag.getFirst(FieldKey.LANGUAGE);
+
+				String yearInBuckets = year.length() == 4 ? year.substring(0,3)+"0s":year;
+				String lengthInBuckets = Integer.toString(header.getTrackLength()/60) + "+";
+
 	            // Creates a new song object for the added song and adds it to the newSongs array list.
-	            Song newSong = new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location);
+	            Song newSong = new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location, genre,lengthInBuckets,year,yearInBuckets,language);
 
 	            // Adds the new song to the songsToAdd array list.
 	            songsToAdd.add(newSong);
