@@ -1,5 +1,8 @@
 package app.musicplayer.lcs;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 /**
  *      performs covering to produce new classifiers
  *
@@ -8,17 +11,24 @@ package app.musicplayer.lcs;
 
 public class Cover {
 
-    public static Classifier cover(Environment env){
+    public static Classifier cover(Instance instance){
+
+        Classifier classifier = new Classifier();
 
         //generate number of attributes to pick
-        int numAttributes = (int)(Math.random() * env.getCurrentInstance().size() + 1);
+        int numAttributes = (int)(Math.random() * LCSAgent.NUM_ATTRIBUTES + 1);
 
-        //generate index's to pick
+        //randomly pick indexes and copy attribute to classifier
+        ArrayList<Integer> indexList = new ArrayList<Integer>();
+        for(int j=0; j<LCSAgent.NUM_ATTRIBUTES;j++){
+            indexList.add(j);
+        }
+        Collections.shuffle(indexList);
         for(int j=0; j<numAttributes;j++){
-
+            classifier.setCondition(indexList.get(j),instance.attributeSet.get(indexList.get(j)));
         }
 
-        return null;
+        return classifier;
     }
 
 }

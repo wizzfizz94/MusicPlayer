@@ -14,10 +14,15 @@ public class Classifier {
     private double fitness;
     public double numerosity;
 
+    public Classifier(){
+        fitness = 0.5;
+        numerosity = 1;
+    }
+
     public Classifier(String c1, int index1){
 
         conditionSet = new ArrayList<String>();
-        for(int i=0;i<LCSAgent.SONG_ATTRIBUTES;i++){
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
         conditionSet.set(index1,c1);
@@ -29,7 +34,7 @@ public class Classifier {
     public Classifier(String c1, int index1, String c2, int index2){
 
         conditionSet = new ArrayList<String>();
-        for(int i=0;i<LCSAgent.SONG_ATTRIBUTES;i++){
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
         conditionSet.set(index1,c1);
@@ -42,7 +47,7 @@ public class Classifier {
     public Classifier(String c1, int index1, String c2, int index2, String c3, int index3){
 
         conditionSet = new ArrayList<String>();
-        for(int i=0;i<LCSAgent.SONG_ATTRIBUTES;i++){
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
         conditionSet.set(index1,c1);
@@ -56,7 +61,7 @@ public class Classifier {
     public Classifier(String c1, int index1, String c2, int index2, String c3, int index3, String c4, int index4){
 
         conditionSet = new ArrayList<String>();
-        for(int i=0;i<LCSAgent.SONG_ATTRIBUTES;i++){
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
         conditionSet.set(index1,c1);
@@ -71,7 +76,7 @@ public class Classifier {
     public Classifier(String c1, int index1, String c2, int index2, String c3, int index3, String c4, int index4, String c5, int index5){
 
         conditionSet = new ArrayList<String>();
-        for(int i=0;i<LCSAgent.SONG_ATTRIBUTES;i++){
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
         conditionSet.set(index1,c1);
@@ -82,6 +87,15 @@ public class Classifier {
 
         fitness = 0.5;
         numerosity = 1;
+    }
+
+    /**
+     *
+     * @param index
+     * @param value
+     */
+    public void setCondition(int index, String value){
+        conditionSet.set(index,value);
     }
 
     /**
