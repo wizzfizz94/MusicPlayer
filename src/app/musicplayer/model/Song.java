@@ -52,6 +52,7 @@ public final class Song implements Comparable<Song> {
     private SimpleStringProperty year;
     private SimpleStringProperty yearInBuckets ;
     private SimpleStringProperty language;
+    private SimpleStringProperty country;
 
     /**
      * Constructor for the song class.
@@ -74,7 +75,7 @@ public final class Song implements Comparable<Song> {
      */
     public Song(int id, String title, String artist, String album, Duration length,
                 int trackNumber, int discNumber, int playCount, LocalDateTime playDate, String location,
-                String genre, String lengthInBuckets,String year, String yearInBuckets, String language) {
+                String genre, String lengthInBuckets,String year, String yearInBuckets, String language, String country) {
 
         if (title == null) {
             Path path = Paths.get(location);
@@ -110,6 +111,7 @@ public final class Song implements Comparable<Song> {
         this.year = new SimpleStringProperty(year);
         this.yearInBuckets = new SimpleStringProperty(yearInBuckets);
         this.language = new SimpleStringProperty(language);
+        this.country = new SimpleStringProperty(country);
     }
 
     public int getId() {
@@ -209,6 +211,7 @@ public final class Song implements Comparable<Song> {
     public StringProperty getYear() {return this.year;}
     public StringProperty getYearInBuckets() {return this.yearInBuckets;}
     public StringProperty getLanguage() {return this.language;}
+    public StringProperty getCountry() {return this.country;}
 
     public void played() {
         this.playCount.set(this.playCount.get() + 1);

@@ -170,6 +170,7 @@ public final class Library {
                     Element year = doc.createElement("year");
                     Element yearInBuckets = doc.createElement("yearInBuckets");
                     Element language = doc.createElement("language");
+                    Element country = doc.createElement("country");
 
                     id.setTextContent(Integer.toString(i++));
                     title.setTextContent(tag.getFirst(FieldKey.TITLE));
@@ -197,6 +198,7 @@ public final class Library {
                     genre.setTextContent(tag.getFirst(FieldKey.GENRE));
                     year.setTextContent(tag.getFirst(FieldKey.YEAR));
                     language.setTextContent(tag.getFirst(FieldKey.LANGUAGE));
+                    country.setTextContent(tag.getFirst(COUNTRY));
 
                     String yearStr = year.getTextContent();
                     yearInBuckets.setTextContent(yearStr.length() == 4 ? yearStr.substring(0,3)+"0s":yearStr);
@@ -218,6 +220,7 @@ public final class Library {
                     song.appendChild(language);
                     song.appendChild(lengthInBuckets);
                     song.appendChild(yearInBuckets);
+                    song.appendChild(country);
 
                     task.updateProgress(i, Library.maxProgress);
 
@@ -309,6 +312,7 @@ public final class Library {
             String lengthInBuckets = null;
             String yearInBuckets = null;
             String year = null;
+            String country = null;
 
             while(reader.hasNext()) {
                 reader.next();
@@ -366,11 +370,14 @@ public final class Library {
                         case YEAR :
                             year  = value;
                             break;
+                        case COUNTRY :
+                            country = value;
+                            break;
 
                     } // End switch
                 } else if (reader.isEndElement() && reader.getName().getLocalPart().equals("song")) {
 
-                    songs.add(new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location,genre,lengthInBuckets,year,yearInBuckets,language));
+                    songs.add(new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location,genre,lengthInBuckets,year,yearInBuckets,language, country));
                     id = -1;
                     title = null;
                     artist = null;
@@ -387,6 +394,7 @@ public final class Library {
                     lengthInBuckets = null;
                     yearInBuckets = null;
                     year = null;
+                    country = null;
                 } else if (reader.isEndElement() && reader.getName().getLocalPart().equals("songs")) {
 
                     reader.close();

@@ -320,12 +320,13 @@ public class XMLEditor {
 				String genre = tag.getFirst(FieldKey.GENRE);
 				String year = tag.getFirst(FieldKey.YEAR);
 				String language= tag.getFirst(FieldKey.LANGUAGE);
+				String country = tag.getFirst(FieldKey.COUNTRY);
 
 				String yearInBuckets = year.length() == 4 ? year.substring(0,3)+"0s":year;
 				String lengthInBuckets = Integer.toString(header.getTrackLength()/60) + "+";
 
 	            // Creates a new song object for the added song and adds it to the newSongs array list.
-	            Song newSong = new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location, genre,lengthInBuckets,year,yearInBuckets,language);
+	            Song newSong = new Song(id, title, artist, album, length, trackNumber, discNumber, playCount, playDate, location, genre,lengthInBuckets,year,yearInBuckets,language,country);
 
 	            // Adds the new song to the songsToAdd array list.
 	            songsToAdd.add(newSong);
