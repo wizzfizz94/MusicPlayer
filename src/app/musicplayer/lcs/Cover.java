@@ -1,5 +1,9 @@
 package app.musicplayer.lcs;
 
+import app.musicplayer.model.Library;
+import app.musicplayer.model.Song;
+import app.musicplayer.util.Resources;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -31,4 +35,13 @@ public class Cover {
         return classifier;
     }
 
+    public static void main(String[] args){
+        Resources.JAR = "";
+        Song song = Library.getSong("Leaves");
+        Instance instance = new Instance(song);
+        Classifier classifier = cover(instance);
+        System.out.println(classifier.conditionSet.toString());
+    }
 }
+
+

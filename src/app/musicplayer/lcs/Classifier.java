@@ -10,11 +10,15 @@ public class Classifier {
     public static final String wildcard = "#";
 
 
-    private ArrayList<String> conditionSet;
+    public ArrayList<String> conditionSet;
     private double fitness;
     public double numerosity;
 
     public Classifier(){
+        conditionSet = new ArrayList<String>();
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
+            conditionSet.add(wildcard);
+        }
         fitness = 0.5;
         numerosity = 1;
     }

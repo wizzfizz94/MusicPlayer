@@ -11,7 +11,7 @@ public class MatchSet {
     private ArrayList<Classifier> correctSet;
     private ArrayList<Classifier> incorrectSet;
 
-    public  MatchSet(Population population, Environment enviroment){
+    public  MatchSet(){
 
     }
 
