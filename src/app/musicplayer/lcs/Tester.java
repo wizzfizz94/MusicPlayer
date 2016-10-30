@@ -5,6 +5,8 @@ import app.musicplayer.model.Song;
 import app.musicplayer.util.Resources;
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
+
 /**
  * Created by zachary on 30/10/16.
  */
@@ -35,5 +37,16 @@ public class Tester {
         Instance instance = new Instance(song);
         Classifier classifier = LCSAgent.cover(instance);
         System.out.println(classifier.conditionSet.toString());
+    }
+
+    /**
+     *      test subsume
+     */
+    @Test
+    public void testSubsume(){
+        Classifier c1 = new Classifier("pop",1,"1980",3,"America",4);
+        Classifier c2 = new Classifier("pop",1);
+        assertEquals(false,c1.subsume(c2));
+        assertEquals(true,c2.subsume(c1));
     }
 }

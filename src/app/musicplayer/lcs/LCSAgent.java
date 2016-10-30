@@ -118,4 +118,9 @@ public class LCSAgent {
         return classifier;
     }
 
+
+    public static void delete(){
+
+    }
+
 }

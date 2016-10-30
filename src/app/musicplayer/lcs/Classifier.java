@@ -116,4 +116,18 @@ public class Classifier {
         return false;
     }
 
+    /**
+     *      Subsume another classifier
+     * @param classifier the other classifier
+     * @return true if subsumed
+     */
+    public boolean subsume(Classifier classifier){
+        for(int i=0; i<LCSAgent.NUM_ATTRIBUTES;i++){
+            if(!this.conditionSet.get(i).equals(wildcard) && !this.conditionSet.get(i).equals(classifier.conditionSet.get(i))){
+                return false;
+            }
+        }
+        return true;
+    }
+
 }
