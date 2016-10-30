@@ -26,7 +26,7 @@ public class Tester {
     }
 
     /**
-     *      test crossover
+     *      test for cover
      */
     @Test
     public void testCover(){
