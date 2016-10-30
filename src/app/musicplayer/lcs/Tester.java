@@ -19,7 +19,7 @@ public class Tester {
         Classifier c2 = new Classifier("3min",0);
         System.out.println(c1.conditionSet.toString());
         System.out.println(c2.conditionSet.toString());
-        GAComponent.crossover(c1,c2);
+        LCSAgent.crossover(c1,c2);
         System.out.println(c1.conditionSet.toString());
         System.out.println(c2.conditionSet.toString());
 
@@ -33,7 +33,7 @@ public class Tester {
         Resources.JAR = "";
         Song song = Library.getSong("Leaves");
         Instance instance = new Instance(song);
-        Classifier classifier = Cover.cover(instance);
+        Classifier classifier = LCSAgent.cover(instance);
         System.out.println(classifier.conditionSet.toString());
     }
 }
