@@ -35,13 +35,6 @@ public class Cover {
         return classifier;
     }
 
-    public static void main(String[] args){
-        Resources.JAR = "";
-        Song song = Library.getSong("Leaves");
-        Instance instance = new Instance(song);
-        Classifier classifier = cover(instance);
-        System.out.println(classifier.conditionSet.toString());
-    }
 }
 
 
