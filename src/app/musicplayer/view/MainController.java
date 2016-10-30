@@ -871,6 +871,14 @@ public class MainController implements Initializable, IntellitypeListener {
 		MusicPlayer.feedbackNegativeToLCS();
         MusicPlayer.skip();
     }
+
+	@FXML
+	private void skipSmart() {
+
+		sideBar.requestFocus();
+		MusicPlayer.feedbackPositiveToLCS();
+		MusicPlayer.skip();
+	}
     
     @FXML
     private void letterClicked(Event e) {

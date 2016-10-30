@@ -56,6 +56,7 @@ public final class Library {
     private static final String YEAR = "year";
     private static final String YEARINBUCKETS = "yearInBuckets";
     private static final String LANGUAGE = "language";
+    private static final String COUNTRY = "country";
 
     private static ArrayList<Song> songs;
     private static ArrayList<Artist> artists;
@@ -198,7 +199,7 @@ public final class Library {
                     genre.setTextContent(tag.getFirst(FieldKey.GENRE));
                     year.setTextContent(tag.getFirst(FieldKey.YEAR));
                     language.setTextContent(tag.getFirst(FieldKey.LANGUAGE));
-                    country.setTextContent(tag.getFirst(COUNTRY));
+                    country.setTextContent(tag.getFirst(FieldKey.COUNTRY));
 
                     String yearStr = year.getTextContent();
                     yearInBuckets.setTextContent(yearStr.length() == 4 ? yearStr.substring(0,3)+"0s":yearStr);
