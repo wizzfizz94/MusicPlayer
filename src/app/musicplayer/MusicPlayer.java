@@ -474,6 +474,7 @@ public class MusicPlayer extends Application {
      */
     public static void skip() {
         if (isSmartShuffleActive) {
+<<<<<<< HEAD
 
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
@@ -490,6 +491,12 @@ public class MusicPlayer extends Application {
                 play();
             }
 
+=======
+            setNowPlaying(getSongRandom());
+            mediaPlayer.play();
+            timer.scheduleAtFixedRate(new TimeUpdater(), 0, 250);
+            mainController.updatePlayPauseIcon(true);
+>>>>>>> 74fee506323ef5f64095cb22e591e3164eecfe5b
         }
         else if (nowPlayingIndex < nowPlayingList.size() - 1) {
             boolean isPlaying = isPlaying();
@@ -576,7 +583,6 @@ public class MusicPlayer extends Application {
     public static void toggleSmartShuffle() {
         isSmartShuffleActive = !isSmartShuffleActive;
         lcsAgent = new LCSAgent();
-        skip();
         }
 
     public static boolean isSmartShuffleActive() {
