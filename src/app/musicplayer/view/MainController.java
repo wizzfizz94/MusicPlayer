@@ -116,8 +116,8 @@ public class MainController implements Initializable, IntellitypeListener {
 		// Smart Shuffle Added by Evan
 		smartShuffleButton.setOnMouseClicked(x -> {
 			sideBar.requestFocus();
-			MusicPlayer.toggleSmartShuffle();
 			smartShuffleButton.pseudoClassStateChanged(active, MusicPlayer.isSmartShuffleActive());
+			MusicPlayer.toggleSmartShuffle();
 		});
     	
     	timeSlider.setFocusTraversable(false);

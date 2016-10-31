@@ -57,6 +57,7 @@ public class MusicPlayer extends Application {
 
     // Smart Shuffle - Added by Evan
     private static boolean isSmartShuffleActive = false;
+    private static LCSAgent lcsAgent;
 
     private static Stage stage;
 
@@ -497,7 +498,7 @@ public class MusicPlayer extends Application {
         if (isSmartShuffleActive) {
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
-            setNowPlaying(getSmartSong());
+            setNowPlaying(getSongRandom());
             if (isPlaying) {
                 play();
             }
@@ -666,15 +667,6 @@ public class MusicPlayer extends Application {
         return nowPlaying;
     }
 
-    public static Song getSmartSong() {
-        Song song = getSongFromLCS();
-
-        if(song == null) {
-            song = getSongRandom();
-        }
-
-        return song;
-    }
 
     public static Song getSongRandom()  {
         Random rand = new Random();
