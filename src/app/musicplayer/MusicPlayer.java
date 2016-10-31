@@ -14,6 +14,7 @@ import java.util.logging.LogManager;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 
+import app.musicplayer.lcs.LCSAgent;
 import app.musicplayer.model.Album;
 import app.musicplayer.model.Artist;
 import app.musicplayer.model.Library;
@@ -181,6 +182,15 @@ public class MusicPlayer extends Application {
 
             // Calls the function to initialize the main layout.
             Platform.runLater(this::initMain);
+        });
+
+        //run thread for lcs system
+        Thread lcsThread = new Thread(() -> {
+            LCSAgent lcsAgent = new LCSAgent();
+            while (isSmartShuffleActive){
+                //create instance from random song
+
+            }
         });
 
         thread.start();

@@ -10,31 +10,26 @@ public class LCSAgent {
 
     public static final int NUM_SONGS = 1;
 
+    public static final int MAX_POPULATION_SIZE = 30;
+
     public static final int NUM_ATTRIBUTES = 5;
 
     public static final double DELETE_RATE = 0.1;
 
     public static final int TOTAL_ATTRIBUTES = NUM_SONGS * NUM_ATTRIBUTES;
 
-    private ArrayList<Classifier> population;
+    public ArrayList<Classifier> population;
     private ArrayList<Classifier> matchSet;
 
     private Instance instance;
 
-    LCSAgent(){
+    public LCSAgent(){
 
         population = new ArrayList<Classifier>();
         matchSet = null;
         instance = null;
-        start();
     }
 
-    /**
-     *      Start LCS system
-     */
-    public void start(){
-
-    }
 
     /**
      *      Find macthes and populate match set
@@ -131,11 +126,12 @@ public class LCSAgent {
         int numClassifiersToDelete = (int)(population.size() * DELETE_RATE);
 
         // delete lowest fitness classifiers
-        for (int j = numClassifiersToDelete; j >= 1; j--) {
+        for (int j = population.size()-1; j >= 0; j--) {
             if(population.size() >= 1) {
                 population.remove(population.size() - 1);
             }
         }
+
     }
 
 }

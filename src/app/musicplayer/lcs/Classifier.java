@@ -35,6 +35,15 @@ public class Classifier implements Comparable {
         numerosity = 1;
     }
 
+    public Classifier(int fitness){
+        conditionSet = new ArrayList<String>();
+        for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
+            conditionSet.add(wildcard);
+        }
+        this.fitness = fitness;
+        numerosity = 1;
+    }
+
     public Classifier(String c1, int index1, String c2, int index2){
 
         conditionSet = new ArrayList<String>();
@@ -130,11 +139,22 @@ public class Classifier implements Comparable {
         return true;
     }
 
-    /*
-     * get Fitness
+
+    /**
+     *      Get fitness
+     * @return
      */
     public int getFitness() {
         return fitness;
+    }
+
+    /**
+     *      Set fitness
+     * @param value
+     * @return
+     */
+    public void setFitness(int value){
+        fitness = value;
     }
 
     @Override
