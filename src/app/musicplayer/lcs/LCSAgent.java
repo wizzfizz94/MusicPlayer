@@ -17,10 +17,14 @@ public class LCSAgent {
     private ArrayList<Classifier> population;
     private ArrayList<Classifier> matchSet;
 
+    private Instance instance;
+
     LCSAgent(){
 
         population = new ArrayList<Classifier>();
-        matchSet = new ArrayList<Classifier>();
+        matchSet = null;
+        instance = null;
+        start();
     }
 
     /**
@@ -43,7 +47,7 @@ public class LCSAgent {
      * @param c1, first classifier
      * @param c2, second classifier
      */
-    public static void crossover(Classifier c1, Classifier c2) {
+    public void crossover(Classifier c1, Classifier c2) {
 
         //find were specification occurs in one classifier but not the other
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
@@ -75,10 +79,9 @@ public class LCSAgent {
 
     /**
      *
-     * @param instance
      * @param classifier
      */
-    public static void mutate(Instance instance, Classifier classifier){
+    public void mutate(Classifier classifier){
 
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
             //replace at 33.33% probability
@@ -95,10 +98,9 @@ public class LCSAgent {
 
     /**
      *
-     * @param instance
      * @return
      */
-    public static Classifier cover(Instance instance){
+    public Classifier cover(){
 
         Classifier classifier = new Classifier();
 
@@ -119,7 +121,7 @@ public class LCSAgent {
     }
 
 
-    public static void delete(){
+    public void delete(){
 
     }
 
