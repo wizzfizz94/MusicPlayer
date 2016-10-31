@@ -36,10 +36,11 @@ public class LCSAgent {
 
 
     /**
-     *      Find macthes and populate match set
-     * @param instance to match
+     *
+     * @param instance
+     * @return
      */
-    public void findMatches(Instance instance){
+    public boolean findMatches(Instance instance){
         matchSet = new ArrayList<Classifier>();
         outerloop : for(Classifier classifier : population){
             for (int i=0;i<NUM_ATTRIBUTES;i++){
@@ -49,6 +50,14 @@ public class LCSAgent {
             }
             matchSet.add(classifier);
         }
+
+        if(matchSetIsEmpty()){
+            if(!isFull()){
+                cover();
+            }
+            return false;
+        }
+        return true;
     }
 
     public boolean matchSetIsEmpty(){

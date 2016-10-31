@@ -474,12 +474,22 @@ public class MusicPlayer extends Application {
      */
     public static void skip() {
         if (isSmartShuffleActive) {
+
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
-            setNowPlaying(getSongRandom());
+
+            Song currentSong = getSongRandom();
+            Instance instance = new Instance(currentSong);
+
+            while(!lcsAgent.findMatches(instance)){
+                currentSong = getSongRandom();
+                instance = new Instance(currentSong);
+            }
+            setNowPlaying(currentSong);
             if (isPlaying) {
                 play();
             }
+
         }
         else if (nowPlayingIndex < nowPlayingList.size() - 1) {
             boolean isPlaying = isPlaying();
