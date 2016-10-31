@@ -12,6 +12,8 @@ public class LCSAgent {
 
     public static final int NUM_ATTRIBUTES = 5;
 
+    public static final double DELETE_RATE = 0.1;
+
     public static final int TOTAL_ATTRIBUTES = NUM_SONGS * NUM_ATTRIBUTES;
 
     private ArrayList<Classifier> population;
@@ -123,6 +125,17 @@ public class LCSAgent {
 
     public void delete(){
 
+        // Sort the classifiers by fitness
+        Collections.sort(population);
+
+        int numClassifiersToDelete = (int)(population.size() * DELETE_RATE);
+
+        // delete lowest fitness classifiers
+        for (int j = numClassifiersToDelete; j >= 1; j--) {
+            if(population.size() >= 1) {
+                population.remove(population.size() - 1);
+            }
+        }
     }
 
 }

@@ -5,13 +5,13 @@ import java.util.ArrayList;
 /**
  * Created by zachary on 21/10/16.
  */
-public class Classifier {
+public class Classifier implements Comparable {
 
     public static final String wildcard = "#";
 
 
     public ArrayList<String> conditionSet;
-    private double fitness;
+    private int fitness;
     public double numerosity;
 
     public Classifier(){
@@ -19,7 +19,7 @@ public class Classifier {
         for(int i=0;i<LCSAgent.NUM_ATTRIBUTES;i++){
             conditionSet.add(wildcard);
         }
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -31,7 +31,7 @@ public class Classifier {
         }
         conditionSet.set(index1,c1);
 
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -44,7 +44,7 @@ public class Classifier {
         conditionSet.set(index1,c1);
         conditionSet.set(index2,c2);
 
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -58,7 +58,7 @@ public class Classifier {
         conditionSet.set(index2,c2);
         conditionSet.set(index3,c3);
 
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -73,7 +73,7 @@ public class Classifier {
         conditionSet.set(index3,c3);
         conditionSet.set(index4,c4);
 
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -89,7 +89,7 @@ public class Classifier {
         conditionSet.set(index4,c4);
         conditionSet.set(index5,c5);
 
-        fitness = 0.5;
+        fitness = 50;
         numerosity = 1;
     }
 
@@ -130,4 +130,21 @@ public class Classifier {
         return true;
     }
 
+    /*
+     * get Fitness
+     */
+    public int getFitness() {
+        return fitness;
+    }
+
+    @Override
+    /*
+     * Sort in Descending order
+     * @param o the classifier
+     */
+    public int compareTo(Object o) {
+        int compareFitness;
+        compareFitness = ((Classifier)o).getFitness();
+        return compareFitness - this.fitness;
+    }
 }
