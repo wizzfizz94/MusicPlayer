@@ -26,6 +26,7 @@ import app.musicplayer.view.MainController;
 import app.musicplayer.view.NowPlayingController;
 import javafx.application.Application;
 import javafx.application.Platform;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
@@ -661,7 +662,14 @@ public class MusicPlayer extends Application {
 
     public static Song getSongRandom()  {
         Random rand = new Random();
-        return nowPlayingList.get(rand.nextInt(nowPlayingList.size()-nowPlayingIndex+1)+nowPlayingIndex);
+        ArrayList<Song> notPlayedList = new ArrayList<Song>();
+
+        for (Song song : nowPlayingList) {
+            if (song.getPlayedSmartShuffle() == new SimpleBooleanProperty(false)) {
+                notPlayedList.add(song);
+            }
+        }
+        return notPlayedList.get(rand.nextInt(notPlayedList.size()));
     }
 
     public static String getTimePassed() {
