@@ -47,6 +47,8 @@ public final class Song implements Comparable<Song> {
     private SimpleBooleanProperty playing;
     private SimpleBooleanProperty selected;
 
+    private SimpleBooleanProperty playedSmartShuffle;
+
     private SimpleStringProperty genre;
     private SimpleStringProperty lengthInBuckets;
     private SimpleStringProperty year;
@@ -105,6 +107,8 @@ public final class Song implements Comparable<Song> {
         this.location = location;
         this.playing = new SimpleBooleanProperty(false);
         this.selected = new SimpleBooleanProperty(false);
+
+        this.playedSmartShuffle = new SimpleBooleanProperty(false);
 
         this.genre = new SimpleStringProperty(genre);
         this.lengthInBuckets = new SimpleStringProperty(lengthInBuckets);
@@ -213,9 +217,15 @@ public final class Song implements Comparable<Song> {
     public StringProperty getLanguage() {return this.language;}
     public StringProperty getCountry() {return this.country;}
 
+    public BooleanProperty getPlayedSmartShuffle() {
+        return this.playedSmartShuffle;
+    }
+
     public void played() {
         this.playCount.set(this.playCount.get() + 1);
         this.playDate = LocalDateTime.now();
+
+        this.playedSmartShuffle = new SimpleBooleanProperty(true);
 
         Thread thread = new Thread(() -> {
 
