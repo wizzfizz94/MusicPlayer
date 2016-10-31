@@ -55,6 +55,8 @@ public class MusicPlayer extends Application {
     private static boolean isMuted = false;
     private static Object draggedItem;
 
+    private static LCSAgent lcsAgent;
+
     // Smart Shuffle - Added by Evan
     private static boolean isSmartShuffleActive = false;
 
@@ -184,30 +186,6 @@ public class MusicPlayer extends Application {
 
             // Calls the function to initialize the main layout.
             Platform.runLater(this::initMain);
-        });
-
-        //run thread for lcs system
-        Thread lcsThread = new Thread(() -> {
-            LCSAgent lcsAgent = new LCSAgent();
-            while (isSmartShuffleActive){
-                //create instance from random song
-                Instance instance = null;
-
-                //form match set
-                lcsAgent.findMatches(instance);
-                if(lcsAgent.matchSetIsEmpty()){
-                    if(!lcsAgent.isFull()){
-                        lcsAgent.cover();
-                    }else {
-
-                    }
-                }
-
-                //get reinforcement
-
-
-
-            }
         });
 
         thread.start();
@@ -497,7 +475,7 @@ public class MusicPlayer extends Application {
         if (isSmartShuffleActive) {
             boolean isPlaying = isPlaying();
             mainController.updatePlayPauseIcon(isPlaying);
-            setNowPlaying(getSmartSong());
+            setNowPlaying(getSongRandom());
             if (isPlaying) {
                 play();
             }
@@ -584,7 +562,11 @@ public class MusicPlayer extends Application {
         return isShuffleActive;
     }
 
-    public static void toggleSmartShuffle() { isSmartShuffleActive = !isSmartShuffleActive; }
+    public static void toggleSmartShuffle() {
+        isSmartShuffleActive = !isSmartShuffleActive;
+        lcsAgent = new LCSAgent();
+        skip();
+        }
 
     public static boolean isSmartShuffleActive() {
         return isSmartShuffleActive;
@@ -666,22 +648,13 @@ public class MusicPlayer extends Application {
         return nowPlaying;
     }
 
-    public static Song getSmartSong() {
-        Song song = getSongFromLCS();
-
-        if(song == null) {
-            song = getSongRandom();
-        }
-
-        return song;
-    }
 
     public static Song getSongRandom()  {
         Random rand = new Random();
         ArrayList<Song> notPlayedList = new ArrayList<Song>();
 
         for (Song song : nowPlayingList) {
-            if (song.getPlayedSmartShuffle() == new SimpleBooleanProperty(false)) {
+            if (song.getPlayedSmartShuffle().getValue() == false) {
                 notPlayedList.add(song);
             }
         }

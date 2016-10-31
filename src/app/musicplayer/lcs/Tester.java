@@ -37,8 +37,8 @@ public class Tester {
         Resources.JAR = "";
         Song song = Library.getSong("Leaves");
         Instance instance = new Instance(song);
-        Classifier classifier = lcsAgent.cover();
-        System.out.println(classifier.conditionSet.toString());
+        //Classifier classifier = lcsAgent.cover();
+        //System.out.println(classifier.conditionSet.toString());
     }
 
     /**
