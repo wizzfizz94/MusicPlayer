@@ -14,6 +14,7 @@ import java.util.logging.LogManager;
 import javax.xml.stream.XMLInputFactory;
 import javax.xml.stream.XMLStreamReader;
 
+import app.musicplayer.lcs.Instance;
 import app.musicplayer.lcs.LCSAgent;
 import app.musicplayer.model.Album;
 import app.musicplayer.model.Artist;
@@ -189,6 +190,21 @@ public class MusicPlayer extends Application {
             LCSAgent lcsAgent = new LCSAgent();
             while (isSmartShuffleActive){
                 //create instance from random song
+                Instance instance = null;
+
+                //form match set
+                lcsAgent.findMatches(instance);
+                if(lcsAgent.matchSetIsEmpty()){
+                    if(!lcsAgent.isFull()){
+                        lcsAgent.cover();
+                    }else {
+
+                    }
+                }
+
+                //get reinforcement
+
+
 
             }
         });

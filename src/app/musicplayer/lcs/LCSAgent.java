@@ -30,13 +30,36 @@ public class LCSAgent {
         instance = null;
     }
 
+    public void setInstance(Instance instance){
+        this.instance = instance;
+    }
+
 
     /**
      *      Find macthes and populate match set
      * @param instance to match
      */
     public void findMatches(Instance instance){
+        matchSet = new ArrayList<Classifier>();
+        outerloop : for(Classifier classifier : population){
+            for (int i=0;i<NUM_ATTRIBUTES;i++){
+                if(!classifier.match(i, instance.attributeSet.get(i))){
+                    continue outerloop;
+                }
+            }
+            matchSet.add(classifier);
+        }
+    }
 
+    public boolean matchSetIsEmpty(){
+        return matchSet.isEmpty();
+    }
+
+    public boolean isFull(){
+        if(population.size() >= MAX_POPULATION_SIZE){
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -97,7 +120,7 @@ public class LCSAgent {
      *
      * @return
      */
-    public Classifier cover(){
+    public void cover(){
 
         Classifier classifier = new Classifier();
 
@@ -114,7 +137,7 @@ public class LCSAgent {
             classifier.setCondition(indexList.get(j),instance.attributeSet.get(indexList.get(j)));
         }
 
-        return classifier;
+        population.add(classifier);
     }
 
 
