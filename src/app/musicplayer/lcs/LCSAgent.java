@@ -12,7 +12,7 @@ public class LCSAgent {
 
     public static final int MAX_POPULATION_SIZE = 30;
 
-    public static final int NUM_ATTRIBUTES = 5;
+    public static final int NUM_ATTRIBUTES = 4;
 
     public static final double DELETE_RATE = 0.1;
 
@@ -34,6 +34,12 @@ public class LCSAgent {
         this.instance = instance;
     }
 
+    public void printPopulation(){
+        for (int i=0; i<population.size();i++){
+            System.out.print(population.get(i).conditionSet.toString());
+            System.out.print("hello");
+        }
+    }
 
     /**
      *
@@ -41,6 +47,7 @@ public class LCSAgent {
      * @return
      */
     public boolean findMatches(Instance instance){
+        this.instance = instance;
         matchSet = new ArrayList<Classifier>();
         outerloop : for(Classifier classifier : population){
             for (int i=0;i<NUM_ATTRIBUTES;i++){
@@ -54,10 +61,41 @@ public class LCSAgent {
         if(matchSetIsEmpty()){
             if(!isFull()){
                 cover();
+            }else{
+                delete();
             }
             return false;
         }
         return true;
+    }
+
+    public void updateFitness(int reinforcement){
+        for (Classifier classifier : matchSet){
+            classifier.setFitness(classifier.getFitness() + reinforcement);
+        }
+
+        if(matchSet.size() > 1){
+            startGA();
+        }
+    }
+
+    public void startGA(){
+        Collections.shuffle(matchSet);
+        Classifier classifier = crossover(matchSet.get(0), matchSet.get(1));
+        mutate(classifier);
+        population.add(classifier);
+        resizePopulation();
+        printPopulation();
+    }
+
+    public void resizePopulation(){
+        // Sort the classifiers by fitness
+        Collections.sort(population);
+
+        int j = population.size();
+        while(j > MAX_POPULATION_SIZE){
+            population.remove(j-1);
+        }
     }
 
     public boolean matchSetIsEmpty(){
@@ -76,34 +114,25 @@ public class LCSAgent {
      * @param c1, first classifier
      * @param c2, second classifier
      */
-    public void crossover(Classifier c1, Classifier c2) {
+    public Classifier crossover(Classifier c1, Classifier c2) {
 
-        //find were specification occurs in one classifier but not the other
+        Classifier classifier = new Classifier();
+
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
+            //replace at 50% probablity
+            int replace = (int) (Math.random() * 2);
 
-            if (c1.conditionSet.get(i).equals("#") && !c2.conditionSet.get(i).equals("#")) {
-                //replace at 50% probablity
-                int replace = (int) (Math.random() * 2);
-                if (replace == 0) {
-                    c1.conditionSet.set(i, c2.conditionSet.get(i));
-                }
-                replace = (int) (Math.random() * 2);
-                if (replace == 0) {
-                    c2.conditionSet.set(i, "#");
-                }
-            }
-            else if (!c1.conditionSet.get(i).equals("#") && c2.conditionSet.get(i).equals("#")) {
-                //replace at 50% probablity
-                int replace = (int) (Math.random() * 2);
-                if (replace == 0) {
-                    c1.conditionSet.set(i, "#");
-                }
-                replace = (int) (Math.random() * 2);
-                if (replace == 0) {
-                    c2.conditionSet.set(i, c1.conditionSet.get(i));
+            if(replace==0){
+                int parent = (int) (Math.random() * 2);
+                if(parent==0){
+                    classifier.setCondition(i,c1.conditionSet.get(i));
+                }else{
+                    classifier.setCondition(i,c2.conditionSet.get(i));
                 }
             }
         }
+
+        return classifier;
     }
 
     /**
@@ -155,15 +184,11 @@ public class LCSAgent {
         // Sort the classifiers by fitness
         Collections.sort(population);
 
-        int numClassifiersToDelete = (int)(population.size() * DELETE_RATE);
-
-        // delete lowest fitness classifiers
-        for (int j = population.size()-1; j >= 0; j--) {
-            if(population.size() >= 1) {
-                population.remove(population.size() - 1);
-            }
+        int j = population.size();
+        while(j > MAX_POPULATION_SIZE - 1){
+            population.remove(j-1);
         }
-
     }
+
 
 }

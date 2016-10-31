@@ -481,10 +481,12 @@ public class MusicPlayer extends Application {
                 instance = new Instance(currentSong);
             }
 
+
             setNowPlaying(currentSong);
             mediaPlayer.play();
             timer.scheduleAtFixedRate(new TimeUpdater(), 0, 250);
             mainController.updatePlayPauseIcon(true);
+
         }
         else if (nowPlayingIndex < nowPlayingList.size() - 1) {
             boolean isPlaying = isPlaying();
@@ -655,7 +657,6 @@ public class MusicPlayer extends Application {
 
 
     public static Song getSongRandom()  {
-        Random rand = new Random();
         ArrayList<Song> notPlayedList = new ArrayList<Song>();
 
         for (Song song : nowPlayingList) {
@@ -663,7 +664,7 @@ public class MusicPlayer extends Application {
                 notPlayedList.add(song);
             }
         }
-        return notPlayedList.get(rand.nextInt(notPlayedList.size()));
+        return notPlayedList.get((int)(Math.random() * notPlayedList.size()));
     }
 
     public static String getTimePassed() {
@@ -708,14 +709,12 @@ public class MusicPlayer extends Application {
 
     public static void feedbackPositiveToLCS()
     {
-        // TODO positive feedback to LCS
+        lcsAgent.updateFitness(1);
     }
 
     public static void feedbackNegativeToLCS()
     {
-        // TODO bad feedback to LCS
+        lcsAgent.updateFitness(-1);
     }
 
-    // TODO Get a song basing on LCS
-    public static Song getSongFromLCS()  { return null;}
 }
