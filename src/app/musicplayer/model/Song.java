@@ -225,7 +225,7 @@ public final class Song implements Comparable<Song> {
         this.playCount.set(this.playCount.get() + 1);
         this.playDate = LocalDateTime.now();
 
-        this.playedSmartShuffle = new SimpleBooleanProperty(true);
+        this.playedSmartShuffle.setValue(true);
 
         Thread thread = new Thread(() -> {
 
