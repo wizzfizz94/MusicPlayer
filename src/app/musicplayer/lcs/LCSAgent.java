@@ -92,6 +92,8 @@ public class LCSAgent {
         Classifier classifier = crossover(matchSet.get(0), matchSet.get(1));
         mutate(classifier);
         population.add(classifier);
+        subsume();
+
     }
 
     public void resizePopulation(){
@@ -180,6 +182,24 @@ public class LCSAgent {
         }
 
         population.add(classifier);
+    }
+
+    public void subsume(){
+        for (Classifier classifier : matchSet){
+            outerloop : for (Classifier classifier1 : matchSet){
+                //if same object continue
+                if(classifier == classifier1){
+                    continue outerloop;
+                }
+
+                for(int i=0;i<NUM_ATTRIBUTES;i++){
+                    if( !classifier.conditionSet.get(i).equals(classifier1.conditionSet.get(i)) &&  !classifier.conditionSet.get(i).equals("#")){
+                        continue outerloop;
+                    }
+                }
+                population.remove(classifier1);
+            }
+        }
     }
 
 
