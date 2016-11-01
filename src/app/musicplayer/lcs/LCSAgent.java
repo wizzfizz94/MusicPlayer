@@ -12,6 +12,8 @@ public class LCSAgent {
 
     public static final int MAX_POPULATION_SIZE = 30;
 
+    public static final int CULL_SIZE = 29;
+
     public static final int NUM_ATTRIBUTES = 4;
 
     public static final int CROSSOVER_RATE = 2;
@@ -98,9 +100,10 @@ public class LCSAgent {
         // Sort the classifiers by fitness
         Collections.sort(population);
 
-        int j = population.size();
-        while(j > MAX_POPULATION_SIZE){
-            population.remove(j-1);
+        ArrayList<Classifier> swpPop = population;
+        population = new ArrayList<Classifier>();
+        for(int i=0;i<CULL_SIZE;i++){
+            population.add(swpPop.get(i));
         }
     }
 
