@@ -10,9 +10,9 @@ public class LCSAgent {
 
     public static final int NUM_SONGS = 1;
 
-    public static final int MAX_POPULATION_SIZE = 30;
+    public static final int MAX_POPULATION_SIZE = 10;
 
-    public static final int CULL_SIZE = 29;
+    public static final int CULL_SIZE = 9;     //MUST BE LESS THAN MAX_POPULATION_SIZE
 
     public static final int NUM_ATTRIBUTES = 4;
 
@@ -61,14 +61,13 @@ public class LCSAgent {
                     continue outerloop;
                 }
             }
+            classifier.numerosity++;
             matchSet.add(classifier);
         }
 
         if(matchSetIsEmpty()){
             if(!isFull()){
                 cover();
-            }else{
-                delete();
             }
             return false;
         }
@@ -83,6 +82,9 @@ public class LCSAgent {
         if(matchSet.size() > 1){
             startGA();
         }
+        if(population.size() >= MAX_POPULATION_SIZE){
+            resizePopulation();
+        }
     }
 
     public void startGA(){
@@ -90,10 +92,6 @@ public class LCSAgent {
         Classifier classifier = crossover(matchSet.get(0), matchSet.get(1));
         mutate(classifier);
         population.add(classifier);
-        if(population.size() >= MAX_POPULATION_SIZE){
-            resizePopulation();
-        }
-        printPopulation();
     }
 
     public void resizePopulation(){
@@ -191,6 +189,8 @@ public class LCSAgent {
         Collections.sort(population);
 
         int j = population.size();
+        ArrayList<Classifier> swpPop = population;
+        population = new ArrayList<Classifier>();
         while(j > MAX_POPULATION_SIZE - 1){
             population.remove(j-1);
         }

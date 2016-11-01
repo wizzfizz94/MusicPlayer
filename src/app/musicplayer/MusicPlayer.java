@@ -659,7 +659,7 @@ public class MusicPlayer extends Application {
     public static Song getSongRandom()  {
         ArrayList<Song> notPlayedList = new ArrayList<Song>();
 
-        for (Song song : nowPlayingList) {
+        for (Song song : Library.getSongs()) {
             if (song.getPlayedSmartShuffle().getValue() == false) {
                 notPlayedList.add(song);
             }
