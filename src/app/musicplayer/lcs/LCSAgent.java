@@ -14,6 +14,10 @@ public class LCSAgent {
 
     public static final int NUM_ATTRIBUTES = 4;
 
+    public static final int CROSSOVER_RATE = 2;
+
+    public static final int MUTATE_RATE = 3;
+
     public static final double DELETE_RATE = 0.1;
 
     public static final int TOTAL_ATTRIBUTES = NUM_SONGS * NUM_ATTRIBUTES;
@@ -120,7 +124,7 @@ public class LCSAgent {
 
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
             //replace at 50% probablity
-            int replace = (int) (Math.random() * 2);
+            int replace = (int) (Math.random() * CROSSOVER_RATE);
 
             if(replace==0){
                 int parent = (int) (Math.random() * 2);
@@ -143,7 +147,7 @@ public class LCSAgent {
 
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
             //replace at 33.33% probability
-            int replace = (int)(Math.random()*3);
+            int replace = (int)(Math.random()*MUTATE_RATE);
             if(replace == 0){
                 if(classifier.conditionSet.get(i).equals("#")){
                     classifier.conditionSet.set(i,instance.attributeSet.get(i));

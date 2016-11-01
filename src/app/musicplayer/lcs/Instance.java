@@ -22,10 +22,10 @@ public class Instance {
 
         attributeSet = new ArrayList<String>();
 
-        attributeSet.add(song.getArtist());
-        attributeSet.add(song.getGenre().getValue());
-        attributeSet.add(song.getLengthInBuckets().getValue());
-        attributeSet.add(song.getYearInBuckets().getValue());
+        attributeSet.add(String.valueOf(song.getArtist()));
+        attributeSet.add(String.valueOf(song.getGenre().getValue()));
+        attributeSet.add(String.valueOf(song.getLengthInBuckets().getValue()));
+        attributeSet.add(String.valueOf(song.getYearInBuckets().getValue()));
         //attributeSet.add(song.getLanguage().toString());
 
     }
