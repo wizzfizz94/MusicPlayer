@@ -88,7 +88,9 @@ public class LCSAgent {
         Classifier classifier = crossover(matchSet.get(0), matchSet.get(1));
         mutate(classifier);
         population.add(classifier);
-        resizePopulation();
+        if(population.size() >= MAX_POPULATION_SIZE){
+            resizePopulation();
+        }
         printPopulation();
     }
 
@@ -124,15 +126,12 @@ public class LCSAgent {
 
         for (int i = 0; i < LCSAgent.NUM_ATTRIBUTES; i++) {
             //replace at 50% probablity
-            int replace = (int) (Math.random() * CROSSOVER_RATE);
+            int parent = (int) (Math.random() * CROSSOVER_RATE);
 
-            if(replace==0){
-                int parent = (int) (Math.random() * 2);
-                if(parent==0){
-                    classifier.setCondition(i,c1.conditionSet.get(i));
-                }else{
-                    classifier.setCondition(i,c2.conditionSet.get(i));
-                }
+            if(parent==0){
+                classifier.setCondition(i,c1.conditionSet.get(i));
+            }else{
+                classifier.setCondition(i,c2.conditionSet.get(i));
             }
         }
 
